@@ -1,3 +1,13 @@
+/* Nombre de la escuela: Universidad Tecnologica Metropolitana
+    Asignatura: Desarrollo Movil Multiplataforma
+    Nombre del Maestro: Chuc Uc Joel Ivan
+    Nombre de la actividad: Ejercicio2
+    Nombre del alumno: Aldana Chuc Eduardo Aldana
+    Cuatrimestre: 5
+    Grupo: A
+    Parcial: 1
+    */
+
 import 'dart:io';
 
 void main() {
@@ -9,7 +19,7 @@ void main() {
   print("Dato del empleado");
   var persona = stdin.readLineSync();
 
-  while (j < 5) {
+  while (j < 4) {
     j = j + 1;
     print(" cuantas horas trabajo el empleado : $persona : ");
     String personaSTRING = stdin.readLineSync() ?? '0';
